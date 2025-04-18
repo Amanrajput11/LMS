@@ -27,7 +27,7 @@ const ViewCourses = () => {
                             <h2>{course.courseName}</h2>
                             <p>{course.description}</p>
                             <a
-                                href={`http://localhost:5000/${course.videoPath}`}
+                                href={`https://lms-y02m.onrender.com/${course.videoPath}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="course-link"
