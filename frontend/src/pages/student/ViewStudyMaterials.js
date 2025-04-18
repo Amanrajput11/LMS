@@ -25,7 +25,7 @@ const ViewStudyMaterials = () => {
                     {materials.map((material) => (
                         <li key={material._id} className="study-card">
                             <a
-                                href={`http://localhost:5000/${material.filePath}`}
+                                href={`https://lms-y02m.onrender.com/${material.filePath}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="study-link"
